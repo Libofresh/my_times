@@ -3,10 +3,32 @@
   font-size: 14px;
   font-weight: bold;
   display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
 }
 #logo{
   color: MediumAquaMarine;
   display: inline-flex;
   justify-content: flex-start;
   align-items: center;
+  margin-left: 25px;
+}
+#logo h3{
+  margin-left: 10px;
+}
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 25px;
+}
+nav ul li{
+  flex-direction: row;
+  list-style: none;
+  width: 50px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+nav ul li a{
+  color: black;
 }
