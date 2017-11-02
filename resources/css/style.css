@@ -32,3 +32,29 @@ nav ul li{
 nav ul li a{
   color: black;
 }
+.container{
+  display: flex;
+  flex-direction: inline-block;
+}
+.large {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid blue;
+  margin: 5px;
+  width: 630px;
+}
+.large p{
+  border: 1px solid blue;
+}
+.medium {
+  display: flex;
+  border: 1px solid blue;
+  margin: 5px;
+  width: 300px;
+}
+.small {
+  display: flex;
+  border: 1px solid blue;
+  margin: 5px;
+  width: 240px;
+}
